@@ -1,0 +1,9 @@
+python ./generate.py \
+--prefix="我听见雨滴 落在青青草地" \
+--length=150 \
+--nsamples=10 \
+--save_samples \
+--save_samples_path ./test \
+--model_path ./model/model2 \
+--model_config ./model/model2/config.json \
+--tokenizer_path ./model/model2/vocab.txt
